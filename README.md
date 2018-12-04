@@ -1,7 +1,7 @@
 # STM32F407VG-Arduino
 Getting the "DIY-MORE" Chinese 'F407VG 1024k board working
 
-THIS IS NOT AN OFFICIAL STM32/ARDUINO PROJECT <img align="right" src="images/ss5.png">]
+THIS IS NOT AN OFFICIAL STM32/ARDUINO PROJECT <img align="right" src="images/ss5.png">
 
 This is an interim project for getting the $10 STM32F407VG Cortex-M4 Chinese board up and running on official STM32 core for Arduino IDE. This chip has a massive 1024k of flash and zillions of GPIO. The board is a breakout with zero frills.
 
@@ -21,7 +21,7 @@ a. inside the .../1.4.0/variants/ folder, add the DIYMORE_F407VG folder from her
 
 b. in the .../1.4.0/ folder, open the existing boards.txt in an editor, and patch in the "excerpt" section from the excerpt.txt file.
 
-## Pins:
+## Pins:<img align="right" src="images/ss7.png">
 
 The files here are a quick&dirty rework of the existing official files for "Black F407VE", a 512k board with some addon peripherals. The physical pin layout is different from the Black 'VE, but no attempt has been made to keep any D0 D1 D2 pattern aligning sensibly with the 1024k board. You could inspect the numbers assigned in file variant.h, but in your sketches I recomment always using pin numbers in "PA9" style not "1" or "D1" style. The PA9 style is what is marked on the hardware.
 
@@ -39,4 +39,4 @@ No bootloader in flash is used.  Upload modes are STLINK and SERIAL.
 
 "Serial" is not through the USB connector, but rather using a USB 3V TTL-uart adapter on UART1 (TX/RX) at PA9 / PA10.
 
- [<img align="right" src="images/DIY-More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
+ [<img  src="images/DIY-More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
