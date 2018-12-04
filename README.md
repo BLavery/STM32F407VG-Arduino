@@ -48,6 +48,6 @@ No bootloader in flash is used.  Upload modes are STLINK and SERIAL.
 
 For my notes on the 'F103 "BluePill", see https://github.com/BLavery/STM32F103-Arduino
 
-For my notes on the much smaller STM32F030F4P6, see https://github.com/BLavery/STM32F030F4P6-Arduino .
+For my notes on the much smaller 'F030F4P6, see https://github.com/BLavery/STM32F030F4P6-Arduino .
 
 
