@@ -3,7 +3,7 @@ Getting the "DIY-MORE" Chinese 'F407VG 1024k board working
 
 THIS IS NOT AN OFFICIAL STM32/ARDUINO PROJECT <img align="right" src="images/ss5.png">
 
-This is an interim project for getting the $10 STM32F407VG Cortex-M4 Chinese board up and running on official STM32 core for Arduino IDE. This chip has a massive 1024k of flash and zillions of GPIO. The board is a breakout with zero frills. (On mine, the board maker has trouble spelling their own brand name. Expect other brandings maybe?)
+This is an interim project for getting the $10 STM32F407V__G__ Cortex-M4 Chinese board up and running on official STM32 core for Arduino IDE. This chip has a massive 1024k of flash and zillions of GPIO. The board is a breakout with zero frills. (On mine, the board maker has trouble spelling their own brand name. Expect other brandings maybe?)
 
 The STM32 core project currently does not have support for this chip. The variant listed here can be patched in to your copy of the core files. Current core base is 1.4.  If/when an official support is released in a later core version, then this variant here becomes obsolete!
 
@@ -23,7 +23,7 @@ b. in the .../1.4.0/ folder, open the existing boards.txt in an editor, and patc
 
 ## Pins:<img align="right" src="images/ss7.png">
 
-The files here are a quick&dirty rework of the existing official files for "Black F407VE" (a 512k board with some addon peripherals). The physical pin layout is different from the Black 'VE, but no attempt has been made to keep any D0 D1 D2 pattern aligning sensibly with the 1024k board. You could inspect the numbers assigned in file variant.h, but in your sketches I recommend always using pin numbers in "PA9" style not "1" or "D1" style. The PA9 style is what is marked on the hardware.
+The files here are a quick&dirty rework of the existing official files for Black F407V__E__ (a 512k board with some addon peripherals). The physical pin layout is different from the Black 'VE, but no attempt has been made to keep any D0 D1 D2 pattern aligning sensibly with the 1024k board. You could inspect the numbers assigned in file variant.h, but in your sketches I recommend always using pin numbers in "PA9" style not "1" or "D1" style. The PA9 style is what is marked on the hardware.
 
 ### Standard assignments include:
  - TX / RX = PA9 / PA10
