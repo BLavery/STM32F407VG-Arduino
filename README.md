@@ -9,6 +9,8 @@ The STM32 core project currently does not have support for this '407VG board. (O
 
 The variant listed here can be patched in to your copy of the core files. Current core base is 1.4.  If / when an official support is released in a later core version, then this variant here gets deleted in your upgrade, and becomes obsolete anyway!
 
+The only thing that's not 100% generic in this configuration is setting of LED_BUILTIN to PE0, which this DIY board has.
+
 ## Installation:
 
 1. You must install the STM32 core (official) board support from here:
@@ -45,7 +47,7 @@ No bootloader in flash is used.  Upload modes are STLINK and SERIAL.
 
  [<img  src="images/DIY-More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
  
- I currently know nothing regarding implementing or using USB functionality on this board.
+This chip should be also supporting a DFU USB upload ability in its native bootloader, but this version is not using that.
  
  
  __Related:__
