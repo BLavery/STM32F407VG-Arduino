@@ -47,7 +47,7 @@ No bootloader in flash is used.  Upload modes are STLINK and SERIAL.
 
  [<img  src="images/DIY-More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
  
-This chip should be also supporting a DFU USB upload ability in its native bootloader, but this version is not using that.
+This chip should be also supporting a DFU USB upload ability in its native bootloader, but this code is not using that.
  
  
  __Related:__
