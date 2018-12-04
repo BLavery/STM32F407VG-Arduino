@@ -1,5 +1,5 @@
 # STM32F407VG-Arduino
-Notes on getting the "DIY-MORE" Chinese 'F407VG 1024k board working
+Notes on getting the "DIY-MORE" Chinese 'F407VG 1024k board working on __Arduino_Core_STM32__
 
 THIS IS NOT AN OFFICIAL STM32/ARDUINO PROJECT <img align="right" src="images/ss5.png">
 
