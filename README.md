@@ -7,7 +7,7 @@ This is an interim project for getting the $10 STM32F407VG Cortex-M4 Chinese boa
 
 The STM32 core project currently does not have support for this '407VG board. (Only for STM's full functionality '407VG Discovery Board, including embedded stlink, audio, accelerometer, etc. That's NOT our own bare little '407VG board.) 
 
-The variant listed here can be patched in to your copy of the core files. Current core base is 1.4.  If/when an official support is released in a later core version, then this variant here becomes obsolete!
+The variant listed here can be patched in to your copy of the core files. Current core base is 1.4.  If/when an official support is released in a later core version, then this variant here gets deleted in your upgrade, and becomes obsolete anyway!
 
 ## Installation:
 
