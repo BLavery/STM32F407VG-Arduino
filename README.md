@@ -1,7 +1,7 @@
 # STM32F407VG-Arduino
 Getting the "DIY-MORE" Chinese 'F407VG 1024k board working
 
-THIS IS NOT AN OFFICIAL STM32/ARDUINO PROJECT
+THIS IS NOT AN OFFICIAL STM32/ARDUINO PROJECT <img align="right" src="images/ss5.png">]
 
 This is an interim project for getting the $10 STM32F407VG Cortex-M4 Chinese board up and running on official STM32 core for Arduino IDE. This chip has a massive 1024k of flash and zillions of GPIO. The board is a breakout with zero frills.
 
@@ -38,3 +38,5 @@ The files here are a quick&dirty rework of the existing official files for "Blac
 No bootloader in flash is used.  Upload modes are STLINK and SERIAL. 
 
 "Serial" is not through the USB connector, but rather using a USB 3V TTL-uart adapter on UART1 (TX/RX) at PA9 / PA10.
+
+ [<img align="right" src="images/DIY_More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
