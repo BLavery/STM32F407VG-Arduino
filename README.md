@@ -39,4 +39,4 @@ No bootloader in flash is used.  Upload modes are STLINK and SERIAL.
 
 "Serial" is not through the USB connector, but rather using a USB 3V TTL-uart adapter on UART1 (TX/RX) at PA9 / PA10.
 
- [<img align="right" src="images/DIY_More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
+ [<img align="right" src="images/DIY-More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
