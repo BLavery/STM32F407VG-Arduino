@@ -41,6 +41,9 @@ No bootloader in flash is used.  Upload modes are STLINK and SERIAL.
 
  [<img  src="images/DIY-More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
  
+ I currently know nothing regarding implementing or using USB functionality on this board.
+ 
+ 
  __Related:__
 
 For my notes on the 'F103 "BluePill", see https://github.com/BLavery/STM32F103-Arduino
