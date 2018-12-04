@@ -21,7 +21,7 @@ The only thing that's not 100% generic in this configuration a #define of LED_BU
 but yours will be doubtless a bit different. Hunt for a bunch of "variant.h" files and then check
 you are indeed in the STM32 region. On my Windows install I found the files here:  C:\Users\Brian\AppData\Local\Arduino15\packages\STM32\hardware\stm32\1.4.0\
 
-a. inside the .../1.4.0/variants/ folder, add the DIY_F407VG folder from here, with its 5 files. 
+a. inside the .../1.4.0/variants/ folder, add the DIY_F407VG folder from here, with its 6 files. 
 
 b. in the .../1.4.0/ folder, open the existing boards.txt in an editor, and patch in the "excerpt" section from the excerpt.txt file.
 
@@ -29,7 +29,7 @@ b. in the .../1.4.0/ folder, open the existing boards.txt in an editor, and patc
 
 The files here are a quick&dirty rework of the existing official files for "Black F407VE" (a 512k board). Our physical pin layout is different from that Black 'VE, but no attempt has been made to keep any D0 D1 D2 pattern aligning sensibly with our 1024k board. You could inspect the numbers assigned in file variant.h, but in your sketches I recommend always using pin numbers in "PA9" style not "1" or "D1" style. The PA9 style is what is marked on the hardware.
 
-Re this interim variant files version, I'm going to be like the board maker: "No guarantees!"
+Re this interim variant files version, I'm going to be like the board maker: "No guarantees!" I'm still tinkering.
 
 ### Standard assignments include:
  - TX / RX = PA9 / PA10
