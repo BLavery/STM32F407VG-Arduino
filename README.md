@@ -11,7 +11,7 @@ The STM32 core project currently does not have support for this '407VG board. (O
 
 1. You must install the STM32 core (official) board support from here:
    https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls#list-of-3rd-party-boards-support-urls
-   If you have an earlier version than 1.4, then upgrade it to 1.4.  (1.4 is current as at this date 4 Dec.)
+   If you have an earlier version than 1.4, then upgrade it to 1.4.  (1.4 is current as at this date 4 Dec 2018.)
 
 2. Find your install location for the STM32 package (mine on Mint was /opt/Arduino1.8.5/portable/packages/STM32/hardware/STM32/1.4.0/
 but yours will be doubtless a bit different. Hunt for a bunch of "variant.h" files and then check
