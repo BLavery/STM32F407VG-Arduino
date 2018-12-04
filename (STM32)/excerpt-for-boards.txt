@@ -1,0 +1,21 @@
+
+// Carefully patch the following lines into your boards.txt file
+// in the "Generic F4" area
+// just beneath the "Black F407VE" and "Blue F407VE mini" similar sections
+
+
+
+
+
+
+# F407VG DIY MORE  // BY BL
+# Support: Serial1 (USART1 on PA10, PA9)
+GenF4.menu.pnum.DIYMORE_F407VG=DIY-MORE F407VG
+GenF4.menu.pnum.DIYMORE_F407VG.upload.maximum_size=1048576
+GenF4.menu.pnum.DIYMORE_F407VG.upload.maximum_data_size=131072
+GenF4.menu.pnum.DIYMORE_F407VG.build.mcu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard
+GenF4.menu.pnum.DIYMORE_F407VG.build.board=DIYMORE_F407VG
+GenF4.menu.pnum.DIYMORE_F407VG.build.series=STM32F4xx
+GenF4.menu.pnum.DIYMORE_F407VG.build.product_line=STM32F407xx
+GenF4.menu.pnum.DIYMORE_F407VG.build.variant=DIYMORE_F407VG
+GenF4.menu.pnum.DIYMORE_F407VG.build.cmsis_lib_gcc=arm_cortexM4l_math
