@@ -22,3 +22,14 @@ a. inside the .../1.4.0/variants/ folder, add the DIYMORE_F407VG folder from her
 
 b. in the .../1.4.0/ folder, open the existing boards.txt in an editor, and patch in the "excerpt" section from the excerpt.txt file.
 
+## PINS:
+
+The files here are a quick&dirty rework of the existing official files for "Black F407VE", a 512k board with some addon peripherals. The physical pin layout is different from the Black 'VE, but no attempt has been made to keep any D0 D1 D2 pattern aligning sensibly with the 1024k board. You could inspect the numbers assigned in file variant.h, but in your sketches I recomment always using pin numbers in "PA9" style not "1" or "D1" style. The PA9 style is what is marked on the hardware.
+
+### Standard assignments include:
+ - TX / RX = PA9 / PA10
+ - SWDDIO / SWDCLK = PA13 / PA14
+ - SPI = PA4-PA7
+ - SCL / SDA = PB6 / PB7
+ - LED_BUILTIN = PE0
+ - User buton = PD15
