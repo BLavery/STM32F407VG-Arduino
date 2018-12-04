@@ -33,7 +33,7 @@ Re this interim variant files version, I'm going to be like the board maker: "No
  - SPI = PA4-PA7
  - SCL / SDA = PB6 / PB7
  - LED_BUILTIN = PE0
- - User buton = PD15
+ - User button = PD15
  
  ## Uploading:
  
