@@ -23,7 +23,7 @@ b. in the .../1.4.0/ folder, open the existing boards.txt in an editor, and patc
 
 ## Pins:<img align="right" src="images/ss7.png">
 
-The files here are a quick&dirty rework of the existing official files for "Black F407VE" (a 512k board with some addon peripherals). The physical pin layout is different from the Black 'VE, but no attempt has been made to keep any D0 D1 D2 pattern aligning sensibly with our 1024k board. You could inspect the numbers assigned in file variant.h, but in your sketches I recommend always using pin numbers in "PA9" style not "1" or "D1" style. The PA9 style is what is marked on the hardware.
+The files here are a quick&dirty rework of the existing official files for "Black F407VE" (a 512k board with some addon peripherals). Our physical pin layout is different from that Black 'VE, but no attempt has been made to keep any D0 D1 D2 pattern aligning sensibly with our 1024k board. You could inspect the numbers assigned in file variant.h, but in your sketches I recommend always using pin numbers in "PA9" style not "1" or "D1" style. The PA9 style is what is marked on the hardware.
 
 Re this interim variant files version, I'm going to be like the board maker: "No guarantees!"
 
@@ -39,7 +39,7 @@ Re this interim variant files version, I'm going to be like the board maker: "No
  
 No bootloader in flash is used.  Upload modes are STLINK and SERIAL. 
 
-"Serial" is not through the USB connector, but rather using a USB 3V TTL-uart adapter on UART1 (TX/RX) at PA9 / PA10.
+"Serial" is not through the USB connector, but rather must use a USB 3V TTL-uart adapter on UART1 (TX/RX) at PA9 / PA10.
 
  [<img  src="images/DIY-More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
  
