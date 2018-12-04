@@ -7,6 +7,8 @@ This is an interim project for getting the $10 STM32F407VG Cortex-M4 Chinese boa
 
 The STM32 core project currently does not have support for this chip. The variant listed here can be patched in to your copy of the core files. Current core base is 1.4.  If/when an official support is released in a later core version, then this variant here becomes obsolete!
 
+Re this interim variant files version, I'm going to be like the board maker: "No guarantees!"
+
 ## Installation:
 
 1. You must install the STM32 core (official) board support from here:
