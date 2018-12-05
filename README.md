@@ -43,7 +43,7 @@ Re this interim variant files version, I'm going to be like the board maker: "No
  
 No bootloader in flash is used.  Upload modes are STLINK and SERIAL. 
 
-"Serial" is not through the USB connector, but rather must use a USB 3V TTL-uart adapter on UART1 (TX/RX) at PA9 / PA10. Reset into bootloader by having Boot1 jumper on (grounded) and pressing the button near the USB connector. (Schematic says K1. Board marking says K2. Oh dear!)
+"Serial" is not through the USB connector, but rather must use a USB 3V TTL-uart adapter on UART1 (TX/RX) at PA9 / PA10. Reset into bootloader by having __Boot1 jumper on__ (grounded) and pressing the __button near the USB connector__. (Schematic says K1. My board marking says K2. Oh dear!)
 
  [<img  src="images/DIY-More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
  
