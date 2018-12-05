@@ -63,4 +63,4 @@ For my notes on the 'F103 "BluePill", see https://github.com/BLavery/STM32F103-A
 
 For my notes on the much smaller 'F030F4P6, see https://github.com/BLavery/STM32F030F4P6-Arduino .
 
-
+For my notes on the 'F407VG with micropython, see https://github.com/BLavery/STM32F407VG-Micropython
