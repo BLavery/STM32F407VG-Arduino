@@ -21,9 +21,9 @@ The only thing that's not 100% generic in this configuration a #define of LED_BU
 but yours will be doubtless a bit different. Hunt for a bunch of "variant.h" files and then check
 you are indeed in the STM32 region. On my Windows install I found the files here:  C:\Users\Brian\AppData\Local\Arduino15\packages\STM32\hardware\stm32\1.4.0\
 
-a. inside the .../1.4.0/variants/ folder, add the DIY_F407VG folder from here, with its 6 files. 
+3. inside the .../1.4.0/variants/ folder, add the DIY_F407VG folder from here, with its 6 files. 
 
-b. in the .../1.4.0/ folder, open the existing boards.txt in an editor, and patch in the "excerpt" section from the excerpt.txt file.
+4. in the .../1.4.0/ folder, open the existing boards.txt in an editor, and patch in the "excerpt" section from the excerpt.txt file.
 
 ## Pins:<img align="right" src="images/ss7.png">
 
