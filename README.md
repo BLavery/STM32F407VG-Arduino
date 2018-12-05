@@ -43,7 +43,7 @@ Re this interim variant files version, I'm going to be like the board maker: "No
  
 No bootloader in flash is used.  Upload modes are STLINK and SERIAL. 
 
-<img src="images/IMG_20181205_160414789a.jpg">Bootmode: The 2 jumpers boot0 and boot1 will each pull HI if no jumpers: the jumper will force LO. Boot mode is 1 jumper on boot1. Run mode is move that 1 jumper to boot0. Reset button is the one near USB connector. (Schematic says button K1. My board marking says K2. Oh dear!)
+<img align=right src="images/IMG_20181205_160414789a.jpg">Bootmode: The 2 jumpers boot0 and boot1 will each pull HI if no jumpers: the jumper will force LO. Boot mode is 1 jumper on boot1. Run mode is move that 1 jumper to boot0. Reset button is the one near USB connector. (Schematic says button K1. My board marking says K2. Oh dear!)
 
 You MAY find that STlink upload needs to be done in bootloader mode. It shouldn't need that, but ...
 
