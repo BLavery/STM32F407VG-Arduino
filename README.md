@@ -36,8 +36,8 @@ Re this interim variant files version, I'm going to be like the board maker: "No
  - SWDDIO / SWDCLK = PA13 / PA14
  - SPI = PA4-PA7
  - SCL / SDA = PB6 / PB7
- - LED_BUILTIN = PE0
- - User button = PD15 (button __NOT__ near USB)
+ - LED_BUILTIN = PE0 active low
+ - User button = PD15 active low (the button __NOT__ near USB)
  
  ## Uploading:
  
