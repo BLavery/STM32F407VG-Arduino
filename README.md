@@ -55,7 +55,7 @@ But there is a "gotcha" for Serial upload. When I am powering the board from USB
 
  [<img  src="images/DIY-More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
  
- 
+ And a mystery? I haven't worked out why theere are 10k pullups on PE2 and PE3, shown on schematic.
  
  __Related:__
 
