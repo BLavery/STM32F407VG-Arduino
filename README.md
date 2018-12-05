@@ -47,7 +47,7 @@ No bootloader in flash is used.  Upload modes are STLINK and SERIAL.
 
 You MAY find that STlink upload needs to be done in bootloader mode. It shouldn't need that, but ...
 
-This chip supports both Serial and DFU (USB) upload abilities in its native ROM-based bootloader. But this code above is not using DFU. 
+This chip supports both Serial and DFU (USB) upload abilities in its native ROM-based bootloader. But this code above is not using DFU. DFU doesn't seem to be supported in this core yet.
 
 "Serial" is not through the USB connector, but rather must use a separate USB 3V TTL-uart adapter on UART1 (TX/RX) at PA9 / PA10. I prefer the CP2102 ones. 
 
