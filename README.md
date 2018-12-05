@@ -14,7 +14,7 @@ The only thing that's not 100% generic in this configuration a #define of LED_BU
 ## Installation:
 
 1. You must install the STM32 core (official) board support from here:
-   https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls#list-of-3rd-party-boards-support-urls
+   https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls
    If you have an earlier version than 1.4, then upgrade it to 1.4.  (1.4 is current as at this date 4 Dec 2018.)
 
 2. Find your install location for the STM32 package (mine on Mint was /opt/Arduino1.8.5/portable/packages/STM32/hardware/STM32/1.4.0/
