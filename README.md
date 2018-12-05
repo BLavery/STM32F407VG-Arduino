@@ -43,11 +43,18 @@ Re this interim variant files version, I'm going to be like the board maker: "No
  
 No bootloader in flash is used.  Upload modes are STLINK and SERIAL. 
 
-"Serial" is not through the USB connector, but rather must use a USB 3V TTL-uart adapter on UART1 (TX/RX) at PA9 / PA10. Reset into bootloader by having __Boot1 jumper on__ (grounded) and pressing the __button near the USB connector__. (Schematic says button K1. My board marking says K2. Oh dear!)
+Bootmode: The 2 jumpers boot0 and boot1 will each pull HI if no jumpers: the jumper will force LO. Boot mode is 1 jumper on boot1. Run mode is move that 1 jumper to boot0. Reset button is the one near USB connector. (Schematic says button K1. My board marking says K2. Oh dear!)
+
+You MAY find that STlink upload needs to be done in bootloader mode. It shouldn't need that, but ...
+
+This chip supports a Serial and a DFU (USB) upload abilities in its native ROM-based bootloader. This code above is not using DFU. 
+
+"Serial" is not through the USB connector, but rather must use a separate USB 3V TTL-uart adapter on UART1 (TX/RX) at PA9 / PA10. 
+
+But there is a "gotcha" for Serial upload. If you are powering the board from USB, the DFU USB mode will try to take precedence over Serial, and Serial upload will likely fail. (If you can check your PC, it will show STM32 DFU Uploader!) Either power the board another way while uploading (from uart adapter?), or find a 2-wire USB cable ("charger only, no data") to power through the USB connector.
 
  [<img  src="images/DIY-More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
  
-This chip also supports a DFU USB upload ability in its native bootloader, but this code is not using that.
  
  
  __Related:__
