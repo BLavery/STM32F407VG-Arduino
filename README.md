@@ -51,7 +51,7 @@ This chip supports a Serial and a DFU (USB) upload abilities in its native ROM-b
 
 "Serial" is not through the USB connector, but rather must use a separate USB 3V TTL-uart adapter on UART1 (TX/RX) at PA9 / PA10. 
 
-But there is a "gotcha" for Serial upload. If you are powering the board from USB, the DFU USB mode will try to take precedence over Serial, and Serial upload will likely fail. (If you can check your PC, it will show STM32 DFU Uploader!) Either power the board another way while uploading (from uart adapter?), or find a 2-wire USB cable ("charger only, no data") to power through the USB connector.
+But there is a "gotcha" for Serial upload. If you are powering the board from USB, the DFU USB mode will try to take precedence over Serial, and Serial upload will likely fail. (If you can check your PC ports, it will show STM32 DFU Uploader!) Either power the board another way while uploading (from uart adapter?), or find a 2-wire USB cable ("charger only, no data") to power through the USB connector.
 
  [<img  src="images/DIY-More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
  
