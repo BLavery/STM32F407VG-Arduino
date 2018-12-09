@@ -51,7 +51,7 @@ This chip supports both Serial and DFU (USB) upload abilities in its native ROM-
 
 "Serial" is not through the USB connector, but rather must use a separate USB 3V TTL-uart adapter on UART1 (TX/RX) at PA9 / PA10. I prefer the CP2102 ones. 
 
-But there is a "gotcha" for Serial upload. When I am powering the board from USB, the DFU USB mode tries to take precedence over Serial, and Serial upload fails. (If you can check your PC ports, it will show STM32 DFU Uploader!) Either power the board another way while uploading (power from uart adapter?), or find a 2-wire USB cable ("charger only, no data") to power through the USB connector.
+But there is a "gotcha" for Serial upload. When I am powering the board from USB, the DFU USB mode tries to take precedence over Serial, and Serial upload fails. (If you can check your PC ports, it will show STM32 DFU Uploader!) Either power the board another way while uploading (power from uart adapter?), or find a 2-wire USB cable ("charger only, no data") to power through the USB connector. Or power with a battery pack to the USB connector.
 
  [<img  src="images/DIY-More-STM32F407VGT6s.png">](images/DIY-More-STM32F407VGT6.png)
  
