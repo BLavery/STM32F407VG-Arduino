@@ -62,5 +62,5 @@ But there is a "gotcha" for Serial upload. When I am powering the board from USB
 For my notes on the 'F103 "BluePill", see https://github.com/BLavery/STM32F103-Arduino  
 For my notes on the much smaller 'F030F4P6, see https://github.com/BLavery/STM32F030F4P6-Arduino  
 For my notes on the 'F407VG with micropython, see https://github.com/BLavery/STM32F407VG-Micropython   
-For my notes on the SAMD21-M0-Mini with Arduino and CircuitPython, see https://github.com/BLavery/SAMD21-M0-Mini
+For my notes on the SAMD21-M0-Mini with Arduino and CircuitPython, see https://github.com/BLavery/SAMD21-M0-Mini  
 For my notes on using STM32 boards with ST Cube and direct C++ coding, see https://github.com/BLavery/STM32-Cube-TrueStudio
