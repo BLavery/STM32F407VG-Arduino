@@ -3,6 +3,10 @@ Notes on getting the "DIY" / "DIY-MORE" Chinese 'F407VG 1024k board working on _
 
 THIS IS NOT AN OFFICIAL STM32/ARDUINO PROJECT <img align="right" src="images/ss5.png">
 
+### 2019 - This is no longer being maintained by the original author.
+### Please feel free to fork, copy, adapt if you find it useable
+
+
 This is an interim project for getting the $10 STM32F407VG Cortex-M4 Chinese board up and running on official STM32 core for Arduino IDE. This chip has a massive 1024k of flash and zillions of GPIO. <img align="left" src="images/j67.jpg">The board is a breakout with zero frills. (On mine, the board maker has trouble spelling their own brand name.)
 
 The STM32 core project currently does not have support for this '407VG board. (Only for STM's full functionality '407VG Discovery Board, including embedded stlink, audio, accelerometer, etc. That's NOT our own bare little '407VG board.) 
